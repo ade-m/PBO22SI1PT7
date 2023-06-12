@@ -3,10 +3,11 @@ import model.Mobil;
 public class App {
     public static void main(String[] args) throws Exception {
         //dependency
+      
+        Mobil mobil = new Mobil(engine);
         Engine engine = new Engine();
-        Mobil mobil = new Mobil();
         Engine engine2 = new Engine();
-        mobil.start(engine);
-        mobil.stop(engine2);
+        mobil.start();
+        mobil.stop();
     }
 }
