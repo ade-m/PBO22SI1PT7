@@ -5,6 +5,7 @@ public class Mobil {
     private int status;
 
     public Mobil() {
+        engine = new Engine();
     }
 
     public Mobil(int status) {
