@@ -27,5 +27,13 @@ public class Mobil {
     }
 
 
+    public String getMerkEngine() {
+        return this.merkEngine;
+    }
+
+    public void setMerkEngine(String merkEngine) {
+        this.merkEngine = merkEngine;
+    }
+
 
 }
